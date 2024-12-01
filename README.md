@@ -5,11 +5,13 @@ the lens.ipynb notebook contains the code implementations of the various models 
 A Draft Review/Report file is provided along with a react app to try out the models.
 
 ```bash
-cd frontend
+cd backend
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ```bash
-cd backend
+cd frontend
 npm start
 ```
+
+Download the CalTech 101 dataset and extract into the frontend/public folder.

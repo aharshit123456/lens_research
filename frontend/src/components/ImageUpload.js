@@ -33,6 +33,7 @@ const ImageUpload = ({ setSimilarImages }) => {
       <select value={model} onChange={handleModelChange}>
         <option value="resnet">ResNet</option>
         <option value="vgg">VGG</option>
+        <option value="effnet">effneT</option>
         {/* Add more models here */}
       </select>
       <button onClick={handleSearch}>Search</button>
