@@ -51,6 +51,7 @@ async def search_image(
     logger.info("Search endpoint hit!")
     # Load and preprocess the image
     img = Image.open(io.BytesIO(await file.read())).convert("RGB")
+    img.show()
     img = preprocess(img)
 
     # Extract features
